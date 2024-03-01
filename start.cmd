@@ -21,7 +21,7 @@ if "%errorlevel%" neq "0" (
 
 echo.
 echo Building frontend
-echo.
+echo.cd
 call npm run build
 if "%errorlevel%" neq "0" (
     echo Failed to build frontend
